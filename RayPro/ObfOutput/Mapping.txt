@@ -1,198 +1,348 @@
 Renamed Types:
 
-[RayPro]RayPro.MainRayX -> [RayPro] . 
+[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton -> [RayPro] . 
 {
-	[RayPro]RayPro.MainRayX::CreateRoundRectRgn[6]( [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Int32 ) ->  
-	[RayPro]RayPro.MainRayX::InitFirstParametros[0]( ) ->  
-	[RayPro]RayPro.MainRayX::SetControlsEnabled[1]( [mscorlib]System.Boolean ) ->  
-	[RayPro]RayPro.MainRayX::SetFlechasEnabled[1]( [mscorlib]System.Boolean ) ->  
-	[RayPro]RayPro.MainRayX::visualBtnRx[1]( [mscorlib]System.Boolean ) ->  
-	[RayPro]RayPro.MainRayX::setPanelBorders[0]( ) ->  
-	[RayPro]RayPro.MainRayX::mensajeDeError[2]( [mscorlib]System.String, [System.Drawing]System.Drawing.Color ) ->  
-	[RayPro]RayPro.MainRayX::WireEvents[0]( ) ->  
-	[RayPro]RayPro.MainRayX::OnConnectionChanged[1]( [mscorlib]System.Boolean ) ->  
-	[RayPro]RayPro.MainRayX::OnErrorOccurred[1]( [mscorlib]System.String ) ->  
-	[RayPro]RayPro.MainRayX::SendCommand[1]( [mscorlib]System.String ) ->  
-	[RayPro]RayPro.MainRayX::OnVoltageReceived[2]( [mscorlib]System.Int32, [mscorlib]System.DateTime ) ->  
-	[RayPro]RayPro.MainRayX::btnClose_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnMinimizar_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::ControlCambioFlechas[0]( ) ->  
-	[RayPro]RayPro.MainRayX::startValorChange[1]( [mscorlib]System.Action ) ->  
-	[RayPro]RayPro.MainRayX::stopValorChange[0]( ) ->  
-	[RayPro]RayPro.MainRayX::CambiarMaS[1]( [mscorlib]System.Int32 ) ->  
-	[RayPro]RayPro.MainRayX::WireBodyButtons[0]( ) ->  
-	[RayPro]RayPro.MainRayX::BtnZona_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnOFF_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnON_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::DATE_NOW_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnPRE_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnRX_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnR_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnFilamento_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::MainRayX_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::changeTimer_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnUpKv_MouseUp[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnUpKv_MouseDown[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnDownKv_MouseUp[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnDownKv_MouseDown[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnUpKv_MouseLeave[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
-	[RayPro]RayPro.MainRayX::btnDownKv_MouseLeave[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ​
-	[RayPro]RayPro.MainRayX::cboEstructura_SelectedIndexChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> ‐
-	[RayPro]RayPro.MainRayX::SaveControlBounds[1]( [System.Windows.Forms]System.Windows.Forms.Control ) ->  
-	[RayPro]RayPro.MainRayX::ResizeControls[3]( [System.Windows.Forms]System.Windows.Forms.Control, [mscorlib]System.Single, [mscorlib]System.Single ) ->  
-	[RayPro]RayPro.MainRayX::MainRayX_FormClosing[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.FormClosingEventArgs ) ->  
-	[RayPro]RayPro.MainRayX::InitializeComponent[0]( ) ->  
-	[RayPro]RayPro.MainRayX::<ControlCambioFlechas>b__28_0[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
-	[RayPro]RayPro.MainRayX::<ControlCambioFlechas>b__28_4[0]( ) ->  
-	[RayPro]RayPro.MainRayX::<ControlCambioFlechas>b__28_1[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
-	[RayPro]RayPro.MainRayX::<ControlCambioFlechas>b__28_2[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
-	[RayPro]RayPro.MainRayX::<ControlCambioFlechas>b__28_5[0]( ) ->  
-	[RayPro]RayPro.MainRayX::<ControlCambioFlechas>b__28_3[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_CircleSize[0]( ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_CircleSize[1]( [mscorlib]System.Int32 ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_CircleThickness[0]( ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_CircleThickness[1]( [mscorlib]System.Int32 ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_BorderColor[0]( ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_BorderColor[1]( [System.Drawing]System.Drawing.Color ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_CheckedColor[0]( ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_CheckedColor[1]( [System.Drawing]System.Drawing.Color ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_Checked[0]( ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_Checked[1]( [mscorlib]System.Boolean ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::add_CheckedChanged[1]( [mscorlib]System.EventHandler ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::remove_CheckedChanged[1]( [mscorlib]System.EventHandler ) ->  
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::UncheckSiblings[0]( ) ->  
 
-	[RayPro]RayPro.MainRayX::.ctor[0]( ) skipped:  special name
-	[RayPro]RayPro.MainRayX::OnResize[1]( [mscorlib]System.EventArgs ) skipped:  external base class or interface
-	[RayPro]RayPro.MainRayX::OnFormClosing[1]( [System.Windows.Forms]System.Windows.Forms.FormClosingEventArgs ) skipped:  external base class or interface
-	[RayPro]RayPro.MainRayX::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::.ctor[0]( ) skipped:  special name
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::OnPaint[1]( [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) skipped:  external base class or interface
+	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::OnClick[1]( [mscorlib]System.EventArgs ) skipped:  external base class or interface
 
-	System.Action [RayPro]System.Action RayPro.MainRayX::valorCambiaAction ->  
-	System.Int32 [RayPro]System.Int32 RayPro.MainRayX::kv ->  
-	System.Int32 [RayPro]System.Int32 RayPro.MainRayX::mAs ->  
-	System.Int32 [RayPro]System.Int32 RayPro.MainRayX::indiceImgNow ->  
-	System.Boolean [RayPro]System.Boolean RayPro.MainRayX::_rightPressed ->  
-	System.Boolean [RayPro]System.Boolean RayPro.MainRayX::_leftPressed ->  
-	System.Double [RayPro]System.Double RayPro.MainRayX::getTiempo ->  
-	System.Boolean [RayPro]System.Boolean RayPro.MainRayX::estadoFoco ->  
-	System.Boolean [RayPro]System.Boolean RayPro.MainRayX::NoExecute ->  
-	RayPro.Aplicaciones.tools.HumanSupport [RayPro]RayPro.Aplicaciones.tools.HumanSupport RayPro.MainRayX::hSupport ->  
-	System.Drawing.Size [RayPro]System.Drawing.Size RayPro.MainRayX::originalSize ->  
-	System.Collections.Generic.Dictionary`2<System.Windows.Forms.Control,System.Drawing.Rectangle> [RayPro]System.Collections.Generic.Dictionary`2<System.Windows.Forms.Control,System.Drawing.Rectangle> RayPro.MainRayX::originalControls ->  
-	System.Collections.Generic.Dictionary`2<System.Windows.Forms.Control,System.Drawing.Font> [RayPro]System.Collections.Generic.Dictionary`2<System.Windows.Forms.Control,System.Drawing.Font> RayPro.MainRayX::originalFonts ->  
-	System.ComponentModel.IContainer [RayPro]System.ComponentModel.IContainer RayPro.MainRayX::components ->  
-	System.Windows.Forms.SplitContainer [RayPro]System.Windows.Forms.SplitContainer RayPro.MainRayX::splitContainer1 ->  
-	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRayX::panel1 ->  
-	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRayX::panel2 ->  
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::btnClose ->  
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::btnMinimizar ->  
-	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRayX::panelShow ->  
-	System.Windows.Forms.ComboBox [RayPro]System.Windows.Forms.ComboBox RayPro.MainRayX::cboProyeccion ->  
-	System.Windows.Forms.ComboBox [RayPro]System.Windows.Forms.ComboBox RayPro.MainRayX::cboEstructura ->  
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::pictureBox1 ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::label1 ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::label3 ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::label2 ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnPRE ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnR ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnRX ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnUpMaS ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnDownKv ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnUpKv ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnDownMaS ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::label5 ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::label4 ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::textFilamento ->  
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::showPartsRx ->  
-	System.Windows.Forms.ImageList [RayPro]System.Windows.Forms.ImageList RayPro.MainRayX::lstPartHuman ->  
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::btnOFF ->  
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::btnON ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::lblEncender ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::lblHora ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::lblFecha ->  
-	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.MainRayX::DATE_NOW ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::lblmAs ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::lblKVp ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::lblFoco ->  
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::imgLogo ->  
-	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRayX::panelFoco ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnFilamento ->  
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::showSecuenciaRx ->  
-	System.Windows.Forms.ImageList [RayPro]System.Windows.Forms.ImageList RayPro.MainRayX::lstSecuenciaRx ->  
-	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.MainRayX::changeTimer ->  
-	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRayX::pnlMaS ->  
-	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRayX::pnlKvp ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::label6 ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::label7 -> ​
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::lblErrorMsg -> ‐
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnCraneo ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnTorax ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnHombro ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnColumna ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnFemur ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnPelvis -> ​
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnAbdomen -> ‐
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::imgHospital ->  
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRayX::lblHospital -> ‑
-	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRayX::showHumanRx ->  
-	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRayX::btnMano -> ‑
+	System.Int32 [RayPro]System.Int32 MamografiaGP.Mamorx.Front.LargeRadioButton::<CircleSize>k__BackingField ->  
+	System.Int32 [RayPro]System.Int32 MamografiaGP.Mamorx.Front.LargeRadioButton::<CircleThickness>k__BackingField ->  
+	System.Drawing.Color [RayPro]System.Drawing.Color MamografiaGP.Mamorx.Front.LargeRadioButton::<BorderColor>k__BackingField ->  
+	System.Drawing.Color [RayPro]System.Drawing.Color MamografiaGP.Mamorx.Front.LargeRadioButton::<CheckedColor>k__BackingField ->  
+	System.Boolean [RayPro]System.Boolean MamografiaGP.Mamorx.Front.LargeRadioButton::_checked ->  
+	System.EventHandler [RayPro]System.EventHandler MamografiaGP.Mamorx.Front.LargeRadioButton::CheckedChanged ->  
+
+	System.Int32 [RayPro]System.Int32 MamografiaGP.Mamorx.Front.LargeRadioButton::CircleSize -> dropped
+	System.Int32 [RayPro]System.Int32 MamografiaGP.Mamorx.Front.LargeRadioButton::CircleThickness -> dropped
+	System.Drawing.Color [RayPro]System.Drawing.Color MamografiaGP.Mamorx.Front.LargeRadioButton::BorderColor -> dropped
+	System.Drawing.Color [RayPro]System.Drawing.Color MamografiaGP.Mamorx.Front.LargeRadioButton::CheckedColor -> dropped
+	System.Boolean [RayPro]System.Boolean MamografiaGP.Mamorx.Front.LargeRadioButton::Checked -> dropped
+
+	System.EventHandler [RayPro]System.EventHandler MamografiaGP.Mamorx.Front.LargeRadioButton::CheckedChanged -> dropped
 }
 
-[RayPro]RayPro.Properties.Resources -> [RayPro] . 
+[RayPro]RayPro.Hotspot -> [RayPro] . 
+{
+	[RayPro]RayPro.Hotspot::get_Name[0]( ) ->  
+	[RayPro]RayPro.Hotspot::set_Name[1]( [mscorlib]System.String ) ->  
+	[RayPro]RayPro.Hotspot::get_PX[0]( ) ->  
+	[RayPro]RayPro.Hotspot::set_PX[1]( [mscorlib]System.Single ) ->  
+	[RayPro]RayPro.Hotspot::get_PY[0]( ) ->  
+	[RayPro]RayPro.Hotspot::set_PY[1]( [mscorlib]System.Single ) ->  
+	[RayPro]RayPro.Hotspot::get_Radius[0]( ) ->  
+	[RayPro]RayPro.Hotspot::set_Radius[1]( [mscorlib]System.Int32 ) ->  
+	[RayPro]RayPro.Hotspot::get_Selected[0]( ) ->  
+	[RayPro]RayPro.Hotspot::set_Selected[1]( [mscorlib]System.Boolean ) ->  
+	[RayPro]RayPro.Hotspot::get_Hovered[0]( ) ->  
+	[RayPro]RayPro.Hotspot::set_Hovered[1]( [mscorlib]System.Boolean ) ->  
+
+	[RayPro]RayPro.Hotspot::.ctor[0]( ) skipped:  special name
+
+	System.String [RayPro]System.String RayPro.Hotspot::<Name>k__BackingField ->  
+	System.Single [RayPro]System.Single RayPro.Hotspot::<PX>k__BackingField ->  
+	System.Single [RayPro]System.Single RayPro.Hotspot::<PY>k__BackingField ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Hotspot::<Radius>k__BackingField ->  
+	System.Boolean [RayPro]System.Boolean RayPro.Hotspot::<Selected>k__BackingField ->  
+	System.Boolean [RayPro]System.Boolean RayPro.Hotspot::<Hovered>k__BackingField ->  
+
+	System.String [RayPro]System.String RayPro.Hotspot::Name -> dropped
+	System.Single [RayPro]System.Single RayPro.Hotspot::PX -> dropped
+	System.Single [RayPro]System.Single RayPro.Hotspot::PY -> dropped
+	System.Int32 [RayPro]System.Int32 RayPro.Hotspot::Radius -> dropped
+	System.Boolean [RayPro]System.Boolean RayPro.Hotspot::Selected -> dropped
+	System.Boolean [RayPro]System.Boolean RayPro.Hotspot::Hovered -> dropped
+}
+
+[RayPro]RayPro.BodyHotspotOverlay -> [RayPro] . 
+{
+	[RayPro]RayPro.BodyHotspotOverlay::add_HotspotClicked[1]( [mscorlib]System.Action`1<[RayPro]RayPro.Hotspot> ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::remove_HotspotClicked[1]( [mscorlib]System.Action`1<[RayPro]RayPro.Hotspot> ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::GetImageRect[0]( ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::HotspotCenter[1]( [RayPro]RayPro.Hotspot ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::HitTest[1]( [System.Drawing]System.Drawing.Point ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::OnMouseMove[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::OnMouseClick[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::OnMouseLeave[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::OnPaint[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::DrawHotspot[2]( [System.Drawing]System.Drawing.Graphics, [RayPro]RayPro.Hotspot ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay::<.ctor>b__8_0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+
+	[RayPro]RayPro.BodyHotspotOverlay::GetImageRectPublic[0]( ) skipped:  method rule in configuration
+	[RayPro]RayPro.BodyHotspotOverlay::.ctor[1]( [System.Windows.Forms]System.Windows.Forms.PictureBox ) skipped:  special name
+	[RayPro]RayPro.BodyHotspotOverlay::Add[4]( [mscorlib]System.String, [mscorlib]System.Single, [mscorlib]System.Single, [mscorlib]System.Int32 ) skipped:  method rule in configuration
+
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.BodyHotspotOverlay::_pb ->  
+	System.Collections.Generic.List`1<RayPro.Hotspot> [RayPro]System.Collections.Generic.List`1<RayPro.Hotspot> RayPro.BodyHotspotOverlay::_hotspots ->  
+	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.BodyHotspotOverlay::_pulseTimer ->  
+	System.Single [RayPro]System.Single RayPro.BodyHotspotOverlay::_pulseRadius ->  
+	System.Action`1<RayPro.Hotspot> [RayPro]System.Action`1<RayPro.Hotspot> RayPro.BodyHotspotOverlay::HotspotClicked ->  
+
+	System.Action`1<RayPro.Hotspot> [RayPro]System.Action`1<RayPro.Hotspot> RayPro.BodyHotspotOverlay::HotspotClicked -> dropped
+}
+
+[RayPro]RayPro.MainRxPro -> [RayPro] . 
+{
+	[RayPro]RayPro.MainRxPro::CreateRoundRectRgn[6]( [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.Int32 ) ->  
+	[RayPro]RayPro.MainRxPro::InitBotonesParametros[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::InitFirstParametros[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::EnableSystemEvents[1]( [mscorlib]System.Boolean ) ->  
+	[RayPro]RayPro.MainRxPro::SetModoDisparoActivo[1]( [mscorlib]System.Boolean ) ->  
+	[RayPro]RayPro.MainRxPro::SetBotonesParametrosEnabled[1]( [mscorlib]System.Boolean ) ->  
+	[RayPro]RayPro.MainRxPro::RestaurarSecuenciaDisparo[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::setPanelBorders[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::WireEvents[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::OnConnectionChanged[1]( [mscorlib]System.Boolean ) ->  
+	[RayPro]RayPro.MainRxPro::OnErrorOccurred[1]( [mscorlib]System.String ) ->  
+	[RayPro]RayPro.MainRxPro::SendCommand[1]( [mscorlib]System.String ) ->  
+	[RayPro]RayPro.MainRxPro::MainRayX_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::ControlCambioFlechas[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::startValorChange[1]( [mscorlib]System.Action ) ->  
+	[RayPro]RayPro.MainRxPro::stopValorChange[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::CambiarKv[1]( [mscorlib]System.Int32 ) ->  
+	[RayPro]RayPro.MainRxPro::CambiarMaS[1]( [mscorlib]System.Int32 ) ->  
+	[RayPro]RayPro.MainRxPro::changeTimer_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::btnClose_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::btnMinimizar_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::WireBodyButtons[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::BtnZona_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::btnOFF_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::btnON_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::btnPRE_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::btnRX_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::btnR_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::btnFilamento_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::DATE_NOW_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::cboEstructura_SelectedIndexChanged[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::SaveControlBounds[1]( [System.Windows.Forms]System.Windows.Forms.Control ) ->  
+	[RayPro]RayPro.MainRxPro::ResizeControls[3]( [System.Windows.Forms]System.Windows.Forms.Control, [mscorlib]System.Single, [mscorlib]System.Single ) ->  
+	[RayPro]RayPro.MainRxPro::InitializeComponent[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::<OnShown>b__23_0[1]( [RayPro]RayPro.Hotspot ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_0[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_8[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_1[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_2[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_9[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_3[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_4[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_10[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_5[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_6[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_11[0]( ) ->  
+	[RayPro]RayPro.MainRxPro::<ControlCambioFlechas>b__30_7[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) ->  
+
+	[RayPro]RayPro.MainRxPro::.ctor[0]( ) skipped:  special name
+	[RayPro]RayPro.MainRxPro::OnShown[1]( [mscorlib]System.EventArgs ) skipped:  external base class or interface
+	[RayPro]RayPro.MainRxPro::OnFormClosing[1]( [System.Windows.Forms]System.Windows.Forms.FormClosingEventArgs ) skipped:  external base class or interface
+	[RayPro]RayPro.MainRxPro::OnResize[1]( [mscorlib]System.EventArgs ) skipped:  external base class or interface
+	[RayPro]RayPro.MainRxPro::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+
+	System.Int32 [RayPro]System.Int32 RayPro.MainRxPro::_kv ->  
+	System.Int32 [RayPro]System.Int32 RayPro.MainRxPro::_mAs ->  
+	System.Int32 [RayPro]System.Int32 RayPro.MainRxPro::_indiceImgNow ->  
+	System.Double [RayPro]System.Double RayPro.MainRxPro::_tiempoDisparo ->  
+	System.Boolean [RayPro]System.Boolean RayPro.MainRxPro::_estadoFoco ->  
+	System.Boolean [RayPro]System.Boolean RayPro.MainRxPro::_enModoDisparo ->  
+	RayPro.Aplicaciones.tools.HumanSupport [RayPro]RayPro.Aplicaciones.tools.HumanSupport RayPro.MainRxPro::_hSupport ->  
+	System.Action [RayPro]System.Action RayPro.MainRxPro::_valorCambiaAction ->  
+	System.Drawing.Size [RayPro]System.Drawing.Size RayPro.MainRxPro::_originalSize ->  
+	System.Collections.Generic.Dictionary`2<System.Windows.Forms.Control,System.Drawing.Rectangle> [RayPro]System.Collections.Generic.Dictionary`2<System.Windows.Forms.Control,System.Drawing.Rectangle> RayPro.MainRxPro::_originalControls ->  
+	System.Collections.Generic.Dictionary`2<System.Windows.Forms.Control,System.Drawing.Font> [RayPro]System.Collections.Generic.Dictionary`2<System.Windows.Forms.Control,System.Drawing.Font> RayPro.MainRxPro::_originalFonts ->  
+	System.Windows.Forms.Button[] [RayPro]System.Windows.Forms.Button[] RayPro.MainRxPro::_botonesParametros ->  
+	System.Windows.Forms.Button[] [RayPro]System.Windows.Forms.Button[] RayPro.MainRxPro::_buttonsBodyRx ->  
+	RayPro.BodyHotspotOverlay [RayPro]RayPro.BodyHotspotOverlay RayPro.MainRxPro::_overlay ->  
+	System.ComponentModel.IContainer [RayPro]System.ComponentModel.IContainer RayPro.MainRxPro::components ->  
+	System.Windows.Forms.SplitContainer [RayPro]System.Windows.Forms.SplitContainer RayPro.MainRxPro::splitContainer1 ->  
+	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRxPro::panel1 ->  
+	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRxPro::panel2 ->  
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::btnClose ->  
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::btnMinimizar ->  
+	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRxPro::panelShow ->  
+	System.Windows.Forms.ComboBox [RayPro]System.Windows.Forms.ComboBox RayPro.MainRxPro::cboProyeccion ->  
+	System.Windows.Forms.ComboBox [RayPro]System.Windows.Forms.ComboBox RayPro.MainRxPro::cboEstructura ->  
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::pictureBox1 ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::label1 ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::label3 ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::label2 ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnPRE ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnR ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnRX ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnUpMaS ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnDownKv ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnUpKv ->  
+	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.MainRxPro::increaseTimer ->  
+	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.MainRxPro::decreaseTimer ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnDownMaS ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::label5 ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::label4 ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::textFilamento ->  
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::showPartsRx ->  
+	System.Windows.Forms.ImageList [RayPro]System.Windows.Forms.ImageList RayPro.MainRxPro::lstPartHuman ->  
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::btnOFF ->  
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::btnON ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblEncender ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblHora ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblFecha ->  
+	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.MainRxPro::DATE_NOW ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblKVp ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblFoco ->  
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::imgLogo ->  
+	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRxPro::panelFoco ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnFilamento ->  
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::showSecuenciaRx ->  
+	System.Windows.Forms.ImageList [RayPro]System.Windows.Forms.ImageList RayPro.MainRxPro::lstSecuenciaRx ->  
+	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.MainRxPro::changeTimer ->  
+	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRxPro::pnlMaS ->  
+	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.MainRxPro::pnlKvp ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::label6 ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblUsuario ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblErrorMsg -> ​
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnCraneo ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnTorax ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnHombro ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnColumna ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnFemur ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnPelvis -> ​
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnAbdomen -> ‐
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::imgHospital ->  
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblHospital -> ‐
+	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.MainRxPro::showHumanRx ->  
+	System.Windows.Forms.Button [RayPro]System.Windows.Forms.Button RayPro.MainRxPro::btnMano -> ‑
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::lblmAs -> ‑
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.MainRxPro::label8 -> ‒
+}
+
+[RayPro]RayPro.Configuraciones.Settings -> [RayPro] . 
+{
+	[RayPro]RayPro.Configuraciones.Settings::get_Default[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_DB_USERConnection[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_Usuarios[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::set_Usuarios[1]( [mscorlib]System.String ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_PassUser[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::set_PassUser[1]( [mscorlib]System.String ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_ComPortName[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::set_ComPortName[1]( [mscorlib]System.String ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_Baudios[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::set_Baudios[1]( [mscorlib]System.Int32 ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_AutoConnect[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::set_AutoConnect[1]( [mscorlib]System.Boolean ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_VoltageOffset[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::set_VoltageOffset[1]( [mscorlib]System.Int32 ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_NameHospital[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::set_NameHospital[1]( [mscorlib]System.String ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::get_NameUsers[0]( ) ->  
+	[RayPro]RayPro.Configuraciones.Settings::set_NameUsers[1]( [mscorlib]System.String ) ->  
+
+	[RayPro]RayPro.Configuraciones.Settings::.ctor[0]( ) skipped:  special name
+	[RayPro]RayPro.Configuraciones.Settings::.cctor[0]( ) skipped:  special name
+
+	RayPro.Configuraciones.Settings [RayPro]RayPro.Configuraciones.Settings RayPro.Configuraciones.Settings::defaultInstance ->  
+
+	RayPro.Configuraciones.Settings [RayPro]RayPro.Configuraciones.Settings RayPro.Configuraciones.Settings::Default -> dropped
+	System.String [RayPro]System.String RayPro.Configuraciones.Settings::DB_USERConnection ->  
+	System.String [RayPro]System.String RayPro.Configuraciones.Settings::Usuarios ->  
+	System.String [RayPro]System.String RayPro.Configuraciones.Settings::PassUser ->  
+	System.String [RayPro]System.String RayPro.Configuraciones.Settings::ComPortName ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Configuraciones.Settings::Baudios ->  
+	System.Boolean [RayPro]System.Boolean RayPro.Configuraciones.Settings::AutoConnect ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Configuraciones.Settings::VoltageOffset ->  
+	System.String [RayPro]System.String RayPro.Configuraciones.Settings::NameHospital ->  
+	System.String [RayPro]System.String RayPro.Configuraciones.Settings::NameUsers ->  
+}
+
+[RayPro]RayPro.Properties.Resources -> [RayPro] . 
 {
 	[RayPro]RayPro.Properties.Resources::get_ResourceManager[0]( ) ->  
 	[RayPro]RayPro.Properties.Resources::get_Culture[0]( ) ->  
 	[RayPro]RayPro.Properties.Resources::set_Culture[1]( [mscorlib]System.Globalization.CultureInfo ) ->  
 	[RayPro]RayPro.Properties.Resources::get__2752488[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get__4703650[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_ACTUALIZAR[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_BODYRAX[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_btnCerrar[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_btnPre[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_btnPre__1[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_btnReseteo[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_btnReseteo__1[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_btnRX[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_btnRX__1[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_btnRX1[0]( ) -> ​
-	[RayPro]RayPro.Properties.Resources::get_btnYelown3[0]( ) -> ‐
-	[RayPro]RayPro.Properties.Resources::get_buttonyellow2[0]( ) -> ‑
-	[RayPro]RayPro.Properties.Resources::get_buttonyellown[0]( ) -> ‒
-	[RayPro]RayPro.Properties.Resources::get_campanita[0]( ) -> –
-	[RayPro]RayPro.Properties.Resources::get_cerrar[0]( ) -> —
-	[RayPro]RayPro.Properties.Resources::get_config[0]( ) -> ―
-	[RayPro]RayPro.Properties.Resources::get_config1[0]( ) -> •
-	[RayPro]RayPro.Properties.Resources::get_config2[0]( ) -> ․
-	[RayPro]RayPro.Properties.Resources::get_cuadrito_RM[0]( ) -> ‥
-	[RayPro]RayPro.Properties.Resources::get_cuadro3D_DM[0]( ) -> ‧
-	[RayPro]RayPro.Properties.Resources::get_cuadro3d_RM[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_dar_enter[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_delete[0]( ) -> ‪
-	[RayPro]RayPro.Properties.Resources::get_disparo[0]( ) -> ‫
-	[RayPro]RayPro.Properties.Resources::get_down2[0]( ) -> ‬
-	[RayPro]RayPro.Properties.Resources::get_downarrowgray[0]( ) -> ‭
-	[RayPro]RayPro.Properties.Resources::get_etestocopio_removebg_preview[0]( ) -> ‮
-	[RayPro]RayPro.Properties.Resources::get_fechaRIGHT_1[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_flechaLEFT[0]( ) -> ′
-	[RayPro]RayPro.Properties.Resources::get_flechaLEFT_1[0]( ) -> ‵
-	[RayPro]RayPro.Properties.Resources::get_focoOFF[0]( ) -> ″
-	[RayPro]RayPro.Properties.Resources::get_focoON[0]( ) -> ‶
-	[RayPro]RayPro.Properties.Resources::get_gente[0]( ) -> ‾
-	[RayPro]RayPro.Properties.Resources::get_hospitalico[0]( ) -> ⁇
-	[RayPro]RayPro.Properties.Resources::get_icon_reiniciar[0]( ) -> ⁈
-	[RayPro]RayPro.Properties.Resources::get_IconLaptop[0]( ) -> ⁉
-	[RayPro]RayPro.Properties.Resources::get_IconMedic[0]( ) -> ⁊
-	[RayPro]RayPro.Properties.Resources::get_IconRYX[0]( ) -> ⁋
-	[RayPro]RayPro.Properties.Resources::get_icons8_diez_llaves_64[0]( ) -> ⁌
-	[RayPro]RayPro.Properties.Resources::get_imgRandom1[0]( ) -> ⁍
-	[RayPro]RayPro.Properties.Resources::get_izq_borrando[0]( ) -> ⁎
-	[RayPro]RayPro.Properties.Resources::get_lblErrorMsg[0]( ) -> ⁏
-	[RayPro]RayPro.Properties.Resources::get_listo[0]( ) -> ⁐
-	[RayPro]RayPro.Properties.Resources::get_LOGO_EMPRESA_MEDIC[0]( ) -> ⁑
-	[RayPro]RayPro.Properties.Resources::get_LOGO_EMPRESA_MEDIC_[0]( ) -> ⁒
-	[RayPro]RayPro.Properties.Resources::get_logoempresa[0]( ) -> ⁓
-	[RayPro]RayPro.Properties.Resources::get_logoempresa1[0]( ) -> ⁔
-	[RayPro]RayPro.Properties.Resources::get_MedicoW[0]( ) -> ⁕
-	[RayPro]RayPro.Properties.Resources::get_NoRespirar[0]( ) -> ⁖
-	[RayPro]RayPro.Properties.Resources::get_OFF[0]( ) -> ⁗
-	[RayPro]RayPro.Properties.Resources::get_ON[0]( ) -> ⁘
-	[RayPro]RayPro.Properties.Resources::get_preparando[0]( ) -> ⁙
-	[RayPro]RayPro.Properties.Resources::get_ready[0]( ) -> ⁚
-	[RayPro]RayPro.Properties.Resources::get_ready1[0]( ) -> ⁛
-	[RayPro]RayPro.Properties.Resources::get_resetred[0]( ) -> ⁜
-	[RayPro]RayPro.Properties.Resources::get_Respirar[0]( ) -> ⁝
-	[RayPro]RayPro.Properties.Resources::get_up1[0]( ) -> ⁞
-	[RayPro]RayPro.Properties.Resources::get_up2[0]( ) ->  
-	[RayPro]RayPro.Properties.Resources::get_up21[0]( ) -> ⁠
-	[RayPro]RayPro.Properties.Resources::get_uparrowgray[0]( ) -> ⁡
-	[RayPro]RayPro.Properties.Resources::get_welcome[0]( ) -> ⁢
+	[RayPro]RayPro.Properties.Resources::get__2752489[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get__4703650[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_abdomen_part[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_ACTUALIZAR[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_BODYRAX[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_btnCerrar[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_btnPre[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_btnPre__1[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_btnReseteo[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_btnReseteo__1[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_btnRX[0]( ) -> ​
+	[RayPro]RayPro.Properties.Resources::get_btnRX__1[0]( ) -> ‐
+	[RayPro]RayPro.Properties.Resources::get_btnRX1[0]( ) -> ‑
+	[RayPro]RayPro.Properties.Resources::get_btnYelown3[0]( ) -> ‒
+	[RayPro]RayPro.Properties.Resources::get_buttonyellow2[0]( ) -> –
+	[RayPro]RayPro.Properties.Resources::get_buttonyellown[0]( ) -> —
+	[RayPro]RayPro.Properties.Resources::get_cadera[0]( ) -> ―
+	[RayPro]RayPro.Properties.Resources::get_cadera_árt[0]( ) -> •
+	[RayPro]RayPro.Properties.Resources::get_campanita[0]( ) -> ․
+	[RayPro]RayPro.Properties.Resources::get_cerrar[0]( ) -> ‥
+	[RayPro]RayPro.Properties.Resources::get_config[0]( ) -> ‧
+	[RayPro]RayPro.Properties.Resources::get_config1[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_config2[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_craneo_part[0]( ) -> ‪
+	[RayPro]RayPro.Properties.Resources::get_cuadrito_RM[0]( ) -> ‫
+	[RayPro]RayPro.Properties.Resources::get_cuadro3D_DM[0]( ) -> ‬
+	[RayPro]RayPro.Properties.Resources::get_cuadro3d_RM[0]( ) -> ‭
+	[RayPro]RayPro.Properties.Resources::get_dar_enter[0]( ) -> ‮
+	[RayPro]RayPro.Properties.Resources::get_delete[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_disparo[0]( ) -> ′
+	[RayPro]RayPro.Properties.Resources::get_down2[0]( ) -> ‵
+	[RayPro]RayPro.Properties.Resources::get_downarrowgray[0]( ) -> ″
+	[RayPro]RayPro.Properties.Resources::get_etestocopio_removebg_preview[0]( ) -> ‶
+	[RayPro]RayPro.Properties.Resources::get_fechaRIGHT_1[0]( ) -> ‾
+	[RayPro]RayPro.Properties.Resources::get_flechaLEFT[0]( ) -> ⁇
+	[RayPro]RayPro.Properties.Resources::get_flechaLEFT_1[0]( ) -> ⁈
+	[RayPro]RayPro.Properties.Resources::get_focoOFF[0]( ) -> ⁉
+	[RayPro]RayPro.Properties.Resources::get_focoON[0]( ) -> ⁊
+	[RayPro]RayPro.Properties.Resources::get_gente[0]( ) -> ⁋
+	[RayPro]RayPro.Properties.Resources::get_hospitalico[0]( ) -> ⁌
+	[RayPro]RayPro.Properties.Resources::get_humanbody[0]( ) -> ⁍
+	[RayPro]RayPro.Properties.Resources::get_icon_reiniciar[0]( ) -> ⁎
+	[RayPro]RayPro.Properties.Resources::get_IconLaptop[0]( ) -> ⁏
+	[RayPro]RayPro.Properties.Resources::get_IconMedic[0]( ) -> ⁐
+	[RayPro]RayPro.Properties.Resources::get_IconRYX[0]( ) -> ⁑
+	[RayPro]RayPro.Properties.Resources::get_icons8_diez_llaves_64[0]( ) -> ⁒
+	[RayPro]RayPro.Properties.Resources::get_imgRandom1[0]( ) -> ⁓
+	[RayPro]RayPro.Properties.Resources::get_izq_borrando[0]( ) -> ⁔
+	[RayPro]RayPro.Properties.Resources::get_lblErrorMsg[0]( ) -> ⁕
+	[RayPro]RayPro.Properties.Resources::get_listo[0]( ) -> ⁖
+	[RayPro]RayPro.Properties.Resources::get_LOGO_EMPRESA_MEDIC[0]( ) -> ⁗
+	[RayPro]RayPro.Properties.Resources::get_LOGO_EMPRESA_MEDIC_[0]( ) -> ⁘
+	[RayPro]RayPro.Properties.Resources::get_logoElvi[0]( ) -> ⁙
+	[RayPro]RayPro.Properties.Resources::get_logoempresa[0]( ) -> ⁚
+	[RayPro]RayPro.Properties.Resources::get_logoempresa1[0]( ) -> ⁛
+	[RayPro]RayPro.Properties.Resources::get_MedicoW[0]( ) -> ⁜
+	[RayPro]RayPro.Properties.Resources::get_mylogo[0]( ) -> ⁝
+	[RayPro]RayPro.Properties.Resources::get_mylogo_removebg_preview[0]( ) -> ⁞
+	[RayPro]RayPro.Properties.Resources::get_mynamelogo[0]( ) ->  
+	[RayPro]RayPro.Properties.Resources::get_mynamelogo_removebg_preview[0]( ) -> ⁠
+	[RayPro]RayPro.Properties.Resources::get_NoRespirar[0]( ) -> ⁡
+	[RayPro]RayPro.Properties.Resources::get_OFF[0]( ) -> ⁢
+	[RayPro]RayPro.Properties.Resources::get_ON[0]( ) -> ⁣
+	[RayPro]RayPro.Properties.Resources::get_preparando[0]( ) -> ⁤
+	[RayPro]RayPro.Properties.Resources::get_ready[0]( ) -> ⁪
+	[RayPro]RayPro.Properties.Resources::get_ready1[0]( ) -> ⁫
+	[RayPro]RayPro.Properties.Resources::get_resetred[0]( ) -> ⁬
+	[RayPro]RayPro.Properties.Resources::get_Respirar[0]( ) -> ⁭
+	[RayPro]RayPro.Properties.Resources::get_up1[0]( ) -> ⁮
+	[RayPro]RayPro.Properties.Resources::get_up2[0]( ) -> ⁯
+	[RayPro]RayPro.Properties.Resources::get_up21[0]( ) -> 　
+	[RayPro]RayPro.Properties.Resources::get_uparrowgray[0]( ) ->   
+	[RayPro]RayPro.Properties.Resources::get_welcome[0]( ) ->   
 
 	[RayPro]RayPro.Properties.Resources::.ctor[0]( ) skipped:  special name
 
@@ -202,7 +352,9 @@ Renamed Types:
 	System.Resources.ResourceManager [RayPro]System.Resources.ResourceManager RayPro.Properties.Resources::ResourceManager ->  
 	System.Globalization.CultureInfo [RayPro]System.Globalization.CultureInfo RayPro.Properties.Resources::Culture ->  
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::_2752488 -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::_2752489 -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::_4703650 -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::abdomen_part -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::ACTUALIZAR -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::BODYRAX -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::btnCerrar -> dropped
@@ -216,11 +368,14 @@ Renamed Types:
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::btnYelown3 -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::buttonyellow2 -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::buttonyellown -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::cadera -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::cadera_árt -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::campanita -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::cerrar -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::config -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::config1 -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::config2 -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::craneo_part -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::cuadrito_RM -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::cuadro3D_DM -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::cuadro3d_RM -> dropped
@@ -237,6 +392,7 @@ Renamed Types:
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::focoON -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::gente -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::hospitalico -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::humanbody -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::icon_reiniciar -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::IconLaptop -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::IconMedic -> dropped
@@ -248,9 +404,14 @@ Renamed Types:
 	System.IO.UnmanagedMemoryStream [RayPro]System.IO.UnmanagedMemoryStream RayPro.Properties.Resources::listo -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::LOGO_EMPRESA_MEDIC -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::LOGO_EMPRESA_MEDIC_ -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::logoElvi -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::logoempresa -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::logoempresa1 -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::MedicoW -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::mylogo -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::mylogo_removebg_preview -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::mynamelogo -> dropped
+	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::mynamelogo_removebg_preview -> dropped
 	System.IO.UnmanagedMemoryStream [RayPro]System.IO.UnmanagedMemoryStream RayPro.Properties.Resources::NoRespirar -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::OFF -> dropped
 	System.Drawing.Bitmap [RayPro]System.Drawing.Bitmap RayPro.Properties.Resources::ON -> dropped
@@ -266,7 +427,7 @@ Renamed Types:
 	System.IO.UnmanagedMemoryStream [RayPro]System.IO.UnmanagedMemoryStream RayPro.Properties.Resources::welcome -> dropped
 }
 
-[RayPro]RayPro.Aplicaciones.tools.AppSession -> [RayPro] . 
+[RayPro]RayPro.Aplicaciones.tools.AppSession -> [RayPro] . 
 {
 	[RayPro]RayPro.Aplicaciones.tools.AppSession::get_Usb[0]( ) ->  
 
@@ -277,21 +438,7 @@ Renamed Types:
 	RayPro.Aplicaciones.tools.UsbCdcManager [RayPro]RayPro.Aplicaciones.tools.UsbCdcManager RayPro.Aplicaciones.tools.AppSession::Usb -> dropped
 }
 
-[RayPro]RayPro.Aplicaciones.tools.LicenciaDatos -> [RayPro] . 
-{
-
-	[RayPro]RayPro.Aplicaciones.tools.LicenciaDatos::.ctor[0]( ) skipped:  special name
-
-	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::LicenseCode ->  
-	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::SecurityCode ->  
-	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::PasswordHash ->  
-	System.DateTime [RayPro]System.DateTime RayPro.Aplicaciones.tools.LicenciaDatos::FechaInicio ->  
-	System.DateTime [RayPro]System.DateTime RayPro.Aplicaciones.tools.LicenciaDatos::FechaFin ->  
-	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::Tipo ->  
-	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::Firma ->  
-}
-
-[RayPro]RayPro.Aplicaciones.tools.LicenciaManager -> [RayPro] . 
+[RayPro]RayPro.Aplicaciones.tools.LicenciaManager -> [RayPro] . 
 {
 	[RayPro]RayPro.Aplicaciones.tools.LicenciaManager::CarpetaLicencia[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.LicenciaManager::RutaLicencia[0]( ) ->  
@@ -305,13 +452,28 @@ Renamed Types:
 	[RayPro]RayPro.Aplicaciones.tools.LicenciaManager::ValidarAlIniciar[0]( ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.LicenciaManager::ValidarLicenciaPermanente[3]( [mscorlib]System.String, [mscorlib]System.String, [mscorlib]System.String ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.LicenciaManager::RenovarMensual[3]( [mscorlib]System.DateTime, [mscorlib]System.DateTime, [mscorlib]System.String ) skipped:  method rule in configuration
+	[RayPro]RayPro.Aplicaciones.tools.LicenciaManager::ObtenerDatos[0]( ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.LicenciaManager::CampoVacio[2]( [System.Windows.Forms]System.Windows.Forms.TextBox, [mscorlib]System.String ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.LicenciaManager::.cctor[0]( ) skipped:  special name
 
 	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaManager::secretKey ->  
 }
 
-[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager -> [RayPro] . 
+[RayPro]RayPro.Aplicaciones.tools.LicenciaDatos -> [RayPro] . 
+{
+
+	[RayPro]RayPro.Aplicaciones.tools.LicenciaDatos::.ctor[0]( ) skipped:  special name
+
+	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::LicenseCode ->  
+	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::SecurityCode ->  
+	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::PasswordHash ->  
+	System.DateTime [RayPro]System.DateTime RayPro.Aplicaciones.tools.LicenciaDatos::FechaInicio ->  
+	System.DateTime [RayPro]System.DateTime RayPro.Aplicaciones.tools.LicenciaDatos::FechaFin ->  
+	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::Tipo ->  
+	System.String [RayPro]System.String RayPro.Aplicaciones.tools.LicenciaDatos::Firma ->  
+}
+
+[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager -> [RayPro] . 
 {
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::add_DataReceived[1]( [mscorlib]System.Action`1<[mscorlib]System.String> ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::remove_DataReceived[1]( [mscorlib]System.Action`1<[mscorlib]System.String> ) ->  
@@ -319,23 +481,23 @@ Renamed Types:
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::remove_ConnectionChanged[1]( [mscorlib]System.Action`1<[mscorlib]System.Boolean> ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::add_ErrorOccurred[1]( [mscorlib]System.Action`1<[mscorlib]System.String> ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::remove_ErrorOccurred[1]( [mscorlib]System.Action`1<[mscorlib]System.String> ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::add_VoltageReceived[1]( [mscorlib]System.Action`2<[mscorlib]System.Int32,[mscorlib]System.DateTime> ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::remove_VoltageReceived[1]( [mscorlib]System.Action`2<[mscorlib]System.Int32,[mscorlib]System.DateTime> ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_VoltageOffset[0]( ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_VoltageOffset[1]( [mscorlib]System.Int32 ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_IsConnected[0]( ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_LastError[0]( ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::add_VoltageReceived[1]( [mscorlib]System.Action`2<[mscorlib]System.Single,[mscorlib]System.DateTime> ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::remove_VoltageReceived[1]( [mscorlib]System.Action`2<[mscorlib]System.Single,[mscorlib]System.DateTime> ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_IsConnected[0]( ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_LastError[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_LastError[1]( [mscorlib]System.String ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_PortName[0]( ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_PortName[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_PortName[1]( [mscorlib]System.String ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_BaudRate[0]( ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_BaudRate[1]( [mscorlib]System.Int32 ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_AutoConnect[0]( ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_BaudRate[0]( ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_BaudRate[1]( [mscorlib]System.Int32 ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_AutoConnect[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_AutoConnect[1]( [mscorlib]System.Boolean ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_MessagePrefix[0]( ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_MessagePrefix[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_MessagePrefix[1]( [mscorlib]System.String ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_MessageRegex[0]( ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_MessageRegex[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_MessageRegex[1]( [System]System.Text.RegularExpressions.Regex ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_ReconnectMaxAttempts[0]( ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_ReconnectMaxAttempts[1]( [mscorlib]System.Int32 ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::get_ReconnectBaseDelay[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::set_ReconnectBaseDelay[1]( [mscorlib]System.TimeSpan ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::PostToUi[1]( [mscorlib]System.Action ) ->  
@@ -344,24 +506,24 @@ Renamed Types:
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::SaveSettings[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::CleanupPort[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::AttemptReconnectAsync[0]( ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::StartWatchdog[0]( ) -> ​
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::WatchdogLoopAsync[1]( [mscorlib]System.Threading.CancellationToken ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::StartUsbWatcher[0]( ) -> ‐
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::OnUsbDeviceArrived[2]( [mscorlib]System.Object, [System.Management]System.Management.EventArrivedEventArgs ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::OnErrorReceived[2]( [mscorlib]System.Object, [System]System.IO.Ports.SerialErrorReceivedEventArgs ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::OnDataReceived[2]( [mscorlib]System.Object, [System]System.IO.Ports.SerialDataReceivedEventArgs ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::HandleUnexpectedDisconnect[0]( ) -> ‑
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::HandleUnexpectedDisconnect[0]( ) -> ​
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::StartWatchdog[0]( ) -> ‐
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::WatchdogLoopAsync[1]( [mscorlib]System.Threading.CancellationToken ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::StartUsbWatcher[0]( ) -> ‑
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::OnUsbDeviceArrived[2]( [mscorlib]System.Object, [System.Management]System.Management.EventArrivedEventArgs ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::SetError[1]( [mscorlib]System.String ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::ConsumerLoopAsync[1]( [mscorlib]System.Threading.CancellationToken ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<.ctor>b__60_0[0]( ) -> ‒
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<Connect>b__70_0[0]( ) -> –
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<Disconnect>b__71_0[0]( ) -> —
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<AttemptReconnectAsync>b__73_0[0]( ) -> ―
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<StartWatchdog>b__74_0[0]( ) -> •
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<WatchdogLoopAsync>b__75_0[1]( [mscorlib]System.String ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<WatchdogLoopAsync>b__75_1[0]( ) -> ․
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<OnUsbDeviceArrived>b__77_0[1]( [mscorlib]System.Threading.Tasks.Task ) ->  
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<HandleUnexpectedDisconnect>b__82_0[0]( ) -> ‥
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<HandleUnexpectedDisconnect>b__78_0[0]( ) -> •
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<StartWatchdog>b__79_0[0]( ) -> ․
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<WatchdogLoopAsync>b__80_0[1]( [mscorlib]System.String ) ->  
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<WatchdogLoopAsync>b__80_1[0]( ) -> ‥
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::<OnUsbDeviceArrived>b__82_0[1]( [mscorlib]System.Threading.Tasks.Task ) ->  
 
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::.ctor[0]( ) skipped:  special name
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager::CaptureSyncContext[0]( ) skipped:  method rule in configuration
@@ -381,29 +543,28 @@ Renamed Types:
 	System.Text.StringBuilder [RayPro]System.Text.StringBuilder RayPro.Aplicaciones.tools.UsbCdcManager::_rxBuffer ->  
 	System.Threading.SynchronizationContext [RayPro]System.Threading.SynchronizationContext RayPro.Aplicaciones.tools.UsbCdcManager::_syncContext ->  
 	System.Boolean [RayPro]System.Boolean RayPro.Aplicaciones.tools.UsbCdcManager::_disposed ->  
-	System.Threading.CancellationTokenSource [RayPro]System.Threading.CancellationTokenSource RayPro.Aplicaciones.tools.UsbCdcManager::_watchdogCts ->  
-	System.TimeSpan [RayPro]System.TimeSpan RayPro.Aplicaciones.tools.UsbCdcManager::WatchdogInterval ->  
-	System.Management.ManagementEventWatcher [RayPro]System.Management.ManagementEventWatcher RayPro.Aplicaciones.tools.UsbCdcManager::_usbArrivalWatcher ->  
-	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::_reconnecting ->  
-	System.Threading.CancellationTokenSource [RayPro]System.Threading.CancellationTokenSource RayPro.Aplicaciones.tools.UsbCdcManager::_reconnectCts ->  
-	System.Collections.Concurrent.ConcurrentQueue`1<System.String> [RayPro]System.Collections.Concurrent.ConcurrentQueue`1<System.String> RayPro.Aplicaciones.tools.UsbCdcManager::_lineQueue ->  
-	System.Threading.CancellationTokenSource [RayPro]System.Threading.CancellationTokenSource RayPro.Aplicaciones.tools.UsbCdcManager::_consumerCts ->  
-	System.Threading.Tasks.Task [RayPro]System.Threading.Tasks.Task RayPro.Aplicaciones.tools.UsbCdcManager::_consumerTask ->  
+	System.Threading.CancellationTokenSource [RayPro]System.Threading.CancellationTokenSource RayPro.Aplicaciones.tools.UsbCdcManager::_reconnectCts ->  
 	System.Action`1<System.String> [RayPro]System.Action`1<System.String> RayPro.Aplicaciones.tools.UsbCdcManager::DataReceived ->  
 	System.Action`1<System.Boolean> [RayPro]System.Action`1<System.Boolean> RayPro.Aplicaciones.tools.UsbCdcManager::ConnectionChanged ->  
 	System.Action`1<System.String> [RayPro]System.Action`1<System.String> RayPro.Aplicaciones.tools.UsbCdcManager::ErrorOccurred ->  
-	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::MAX_RX_BUFFER ->  
-	System.Action`2<System.Int32,System.DateTime> [RayPro]System.Action`2<System.Int32,System.DateTime> RayPro.Aplicaciones.tools.UsbCdcManager::VoltageReceived ->  
-	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::<VoltageOffset>k__BackingField ->  
+	System.Collections.Concurrent.ConcurrentQueue`1<System.String> [RayPro]System.Collections.Concurrent.ConcurrentQueue`1<System.String> RayPro.Aplicaciones.tools.UsbCdcManager::_lineQueue ->  
+	System.Threading.CancellationTokenSource [RayPro]System.Threading.CancellationTokenSource RayPro.Aplicaciones.tools.UsbCdcManager::_consumerCts ->  
+	System.Threading.Tasks.Task [RayPro]System.Threading.Tasks.Task RayPro.Aplicaciones.tools.UsbCdcManager::_consumerTask ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::MAX_RX_BUFFER ->  
+	System.Action`2<System.Single,System.DateTime> [RayPro]System.Action`2<System.Single,System.DateTime> RayPro.Aplicaciones.tools.UsbCdcManager::VoltageReceived ->  
+	System.Threading.CancellationTokenSource [RayPro]System.Threading.CancellationTokenSource RayPro.Aplicaciones.tools.UsbCdcManager::_watchdogCts ->  
+	System.TimeSpan [RayPro]System.TimeSpan RayPro.Aplicaciones.tools.UsbCdcManager::WatchdogInterval ->  
+	System.Management.ManagementEventWatcher [RayPro]System.Management.ManagementEventWatcher RayPro.Aplicaciones.tools.UsbCdcManager::_usbArrivalWatcher ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::_reconnecting ->  
 	System.String [RayPro]System.String RayPro.Aplicaciones.tools.UsbCdcManager::<LastError>k__BackingField ->  
 	System.String [RayPro]System.String RayPro.Aplicaciones.tools.UsbCdcManager::<PortName>k__BackingField ->  
-	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::<BaudRate>k__BackingField ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::<BaudRate>k__BackingField ->  
 	System.Boolean [RayPro]System.Boolean RayPro.Aplicaciones.tools.UsbCdcManager::<AutoConnect>k__BackingField ->  
 	System.String [RayPro]System.String RayPro.Aplicaciones.tools.UsbCdcManager::<MessagePrefix>k__BackingField ->  
 	System.Text.RegularExpressions.Regex [RayPro]System.Text.RegularExpressions.Regex RayPro.Aplicaciones.tools.UsbCdcManager::<MessageRegex>k__BackingField ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::<ReconnectMaxAttempts>k__BackingField ->  
 	System.TimeSpan [RayPro]System.TimeSpan RayPro.Aplicaciones.tools.UsbCdcManager::<ReconnectBaseDelay>k__BackingField ->  
 
-	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::VoltageOffset -> dropped
 	System.Boolean [RayPro]System.Boolean RayPro.Aplicaciones.tools.UsbCdcManager::IsConnected -> dropped
 	System.String [RayPro]System.String RayPro.Aplicaciones.tools.UsbCdcManager::LastError -> dropped
 	System.String [RayPro]System.String RayPro.Aplicaciones.tools.UsbCdcManager::PortName -> dropped
@@ -411,15 +572,16 @@ Renamed Types:
 	System.Boolean [RayPro]System.Boolean RayPro.Aplicaciones.tools.UsbCdcManager::AutoConnect -> dropped
 	System.String [RayPro]System.String RayPro.Aplicaciones.tools.UsbCdcManager::MessagePrefix -> dropped
 	System.Text.RegularExpressions.Regex [RayPro]System.Text.RegularExpressions.Regex RayPro.Aplicaciones.tools.UsbCdcManager::MessageRegex -> dropped
+	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager::ReconnectMaxAttempts -> dropped
 	System.TimeSpan [RayPro]System.TimeSpan RayPro.Aplicaciones.tools.UsbCdcManager::ReconnectBaseDelay -> dropped
 
 	System.Action`1<System.String> [RayPro]System.Action`1<System.String> RayPro.Aplicaciones.tools.UsbCdcManager::DataReceived -> dropped
 	System.Action`1<System.Boolean> [RayPro]System.Action`1<System.Boolean> RayPro.Aplicaciones.tools.UsbCdcManager::ConnectionChanged -> dropped
 	System.Action`1<System.String> [RayPro]System.Action`1<System.String> RayPro.Aplicaciones.tools.UsbCdcManager::ErrorOccurred -> dropped
-	System.Action`2<System.Int32,System.DateTime> [RayPro]System.Action`2<System.Int32,System.DateTime> RayPro.Aplicaciones.tools.UsbCdcManager::VoltageReceived -> dropped
+	System.Action`2<System.Single,System.DateTime> [RayPro]System.Action`2<System.Single,System.DateTime> RayPro.Aplicaciones.tools.UsbCdcManager::VoltageReceived -> dropped
 }
 
-[RayPro]RayPro.Aplicaciones.tools.DatosRadiologia -> [RayPro] . 
+[RayPro]RayPro.Aplicaciones.tools.DatosRadiologia -> [RayPro] . 
 {
 	[RayPro]RayPro.Aplicaciones.tools.DatosRadiologia::get_Estructuras[0]( ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.DatosRadiologia::get_Proyecciones[0]( ) ->  
@@ -436,18 +598,20 @@ Renamed Types:
 	System.Collections.Generic.Dictionary`2<System.Int32,System.String[]> [RayPro]System.Collections.Generic.Dictionary`2<System.Int32,System.String[]> RayPro.Aplicaciones.tools.DatosRadiologia::SelectProyeccion -> dropped
 }
 
-[RayPro]RayPro.Aplicaciones.tools.HumanSupport -> [RayPro] . 
+[RayPro]RayPro.Aplicaciones.tools.HumanSupport -> [RayPro] . 
 {
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::LimpiarYConfigurarCombo[3]( [System.Windows.Forms]System.Windows.Forms.ComboBox, [mscorlib]System.String[], [mscorlib]System.String ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::mostrarDataRayX[1]( [mscorlib]System.String ) ->  
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::mostrarSelectProyeccion[1]( [mscorlib]System.Int32 ) ->  
 
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::.ctor[4]( [System.Windows.Forms]System.Windows.Forms.ComboBox, [System.Windows.Forms]System.Windows.Forms.ComboBox, [System.Windows.Forms]System.Windows.Forms.Label, [System.Windows.Forms]System.Windows.Forms.Label ) skipped:  special name
+	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::.ctor[1]( [mscorlib]System.Int32 ) skipped:  special name
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::initialVoltageInput[1]( [mscorlib]System.Int32 ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::PlaySoundRx[1]( [mscorlib]System.String ) skipped:  method rule in configuration
-	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::sendTimeInput[1]( [mscorlib]System.Int32 ) skipped:  method rule in configuration
+	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::MsjeOfError[3]( [mscorlib]System.String, [System.Drawing]System.Drawing.Color, [System.Windows.Forms]System.Windows.Forms.Label ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::ChangeSorL_mAs[1]( [mscorlib]System.String ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::getZeroStr_mAs[1]( [mscorlib]System.Int32 ) skipped:  method rule in configuration
+	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::CalcularTimeExposure[1]( [mscorlib]System.Int32 ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::getImgInicial[1]( [mscorlib]System.Int32 ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::showBodyRayX[1]( [mscorlib]System.Int32 ) skipped:  method rule in configuration
 	[RayPro]RayPro.Aplicaciones.tools.HumanSupport::changeShowCboProy[1]( [mscorlib]System.String ) skipped:  method rule in configuration
@@ -461,58 +625,43 @@ Renamed Types:
 	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.HumanSupport::MA ->  
 }
 
-[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton -> [RayPro] . 
-{
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_CircleSize[0]( ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_CircleSize[1]( [mscorlib]System.Int32 ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_CircleThickness[0]( ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_CircleThickness[1]( [mscorlib]System.Int32 ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_BorderColor[0]( ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_BorderColor[1]( [System.Drawing]System.Drawing.Color ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_CheckedColor[0]( ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_CheckedColor[1]( [System.Drawing]System.Drawing.Color ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::get_Checked[0]( ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::set_Checked[1]( [mscorlib]System.Boolean ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::add_CheckedChanged[1]( [mscorlib]System.EventHandler ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::remove_CheckedChanged[1]( [mscorlib]System.EventHandler ) ->  
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::UncheckSiblings[0]( ) ->  
-
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::OnPaint[1]( [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) skipped:  external base class or interface
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::.ctor[0]( ) skipped:  special name
-	[RayPro]MamografiaGP.Mamorx.Front.LargeRadioButton::OnClick[1]( [mscorlib]System.EventArgs ) skipped:  external base class or interface
-
-	System.Int32 [RayPro]System.Int32 MamografiaGP.Mamorx.Front.LargeRadioButton::<CircleSize>k__BackingField ->  
-	System.Int32 [RayPro]System.Int32 MamografiaGP.Mamorx.Front.LargeRadioButton::<CircleThickness>k__BackingField ->  
-	System.Drawing.Color [RayPro]System.Drawing.Color MamografiaGP.Mamorx.Front.LargeRadioButton::<BorderColor>k__BackingField ->  
-	System.Drawing.Color [RayPro]System.Drawing.Color MamografiaGP.Mamorx.Front.LargeRadioButton::<CheckedColor>k__BackingField ->  
-	System.Boolean [RayPro]System.Boolean MamografiaGP.Mamorx.Front.LargeRadioButton::_checked ->  
-	System.EventHandler [RayPro]System.EventHandler MamografiaGP.Mamorx.Front.LargeRadioButton::CheckedChanged ->  
-
-	System.Int32 [RayPro]System.Int32 MamografiaGP.Mamorx.Front.LargeRadioButton::CircleSize -> dropped
-	System.Int32 [RayPro]System.Int32 MamografiaGP.Mamorx.Front.LargeRadioButton::CircleThickness -> dropped
-	System.Drawing.Color [RayPro]System.Drawing.Color MamografiaGP.Mamorx.Front.LargeRadioButton::BorderColor -> dropped
-	System.Drawing.Color [RayPro]System.Drawing.Color MamografiaGP.Mamorx.Front.LargeRadioButton::CheckedColor -> dropped
-	System.Boolean [RayPro]System.Boolean MamografiaGP.Mamorx.Front.LargeRadioButton::Checked -> dropped
-
-	System.EventHandler [RayPro]System.EventHandler MamografiaGP.Mamorx.Front.LargeRadioButton::CheckedChanged -> dropped
-}
-
-[RayPro]<PrivateImplementationDetails> -> [RayPro] . 
+[RayPro]<PrivateImplementationDetails> -> [RayPro] . 
 {
 	<PrivateImplementationDetails>/__StaticArrayInitTypeSize=24 [RayPro]<PrivateImplementationDetails>/__StaticArrayInitTypeSize=24 <PrivateImplementationDetails>::C09E176A703FC5E4636E98F43FC5AF6DB8EB2C0EDC53CB8BA40D1068C4F12002 ->  
 }
 
-[RayPro]RayPro.MainRayX/<>c__DisplayClass20_0 -> [RayPro] . / 
+[RayPro]RayPro.BodyHotspotOverlay/<>c -> [RayPro] . / 
 {
-	[RayPro]RayPro.MainRayX/<>c__DisplayClass20_0::<mensajeDeError>b__0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+	[RayPro]RayPro.BodyHotspotOverlay/<>c::<OnMouseMove>b__13_0[1]( [RayPro]RayPro.Hotspot ) ->  
 
-	[RayPro]RayPro.MainRayX/<>c__DisplayClass20_0::.ctor[0]( ) skipped:  special name
+	[RayPro]RayPro.BodyHotspotOverlay/<>c::.cctor[0]( ) skipped:  special name
+	[RayPro]RayPro.BodyHotspotOverlay/<>c::.ctor[0]( ) skipped:  special name
 
-	RayPro.MainRayX [RayPro]RayPro.MainRayX RayPro.MainRayX/<>c__DisplayClass20_0::<>4__this ->  
-	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.MainRayX/<>c__DisplayClass20_0::temporizador ->  
+	RayPro.BodyHotspotOverlay/<>c [RayPro]RayPro.BodyHotspotOverlay/<>c RayPro.BodyHotspotOverlay/<>c::<>9 ->  
+	System.Predicate`1<RayPro.Hotspot> [RayPro]System.Predicate`1<RayPro.Hotspot> RayPro.BodyHotspotOverlay/<>c::<>9__13_0 ->  
 }
 
-[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass62_0 -> [RayPro] . / 
+[RayPro]RayPro.MainRxPro/<>c -> [RayPro] . / 
+{
+	[RayPro]RayPro.MainRxPro/<>c::<setPanelBorders>b__21_0[1]( [System.Windows.Forms]System.Windows.Forms.Button ) ->  
+
+	[RayPro]RayPro.MainRxPro/<>c::.cctor[0]( ) skipped:  special name
+	[RayPro]RayPro.MainRxPro/<>c::.ctor[0]( ) skipped:  special name
+
+	RayPro.MainRxPro/<>c [RayPro]RayPro.MainRxPro/<>c RayPro.MainRxPro/<>c::<>9 ->  
+	System.Action`1<System.Windows.Forms.Button> [RayPro]System.Action`1<System.Windows.Forms.Button> RayPro.MainRxPro/<>c::<>9__21_0 ->  
+}
+
+[RayPro]RayPro.MainRxPro/<>c__DisplayClass19_0 -> [RayPro] . / 
+{
+	[RayPro]RayPro.MainRxPro/<>c__DisplayClass19_0::<SetBotonesParametrosEnabled>b__0[1]( [System.Windows.Forms]System.Windows.Forms.Button ) ->  
+
+	[RayPro]RayPro.MainRxPro/<>c__DisplayClass19_0::.ctor[0]( ) skipped:  special name
+
+	System.Boolean [RayPro]System.Boolean RayPro.MainRxPro/<>c__DisplayClass19_0::enabled ->  
+}
+
+[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass62_0 -> [RayPro] . / 
 {
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass62_0::<PostToUi>b__0[1]( [mscorlib]System.Object ) ->  
 
@@ -522,7 +671,7 @@ Renamed Types:
 	System.Action [RayPro]System.Action RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass62_0::action ->  
 }
 
-[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass83_0 -> [RayPro] . / 
+[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass83_0 -> [RayPro] . / 
 {
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass83_0::<SetError>b__0[0]( ) ->  
 
@@ -532,7 +681,7 @@ Renamed Types:
 	System.String [RayPro]System.String RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass83_0::message ->  
 }
 
-[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_0 -> [RayPro] . / 
+[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_0 -> [RayPro] . / 
 {
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_0::<ConsumerLoopAsync>b__0[0]( ) ->  
 
@@ -542,18 +691,17 @@ Renamed Types:
 	RayPro.Aplicaciones.tools.UsbCdcManager [RayPro]RayPro.Aplicaciones.tools.UsbCdcManager RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_0::<>4__this ->  
 }
 
-[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_1 -> [RayPro] . / 
+[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_1 -> [RayPro] . / 
 {
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_1::<ConsumerLoopAsync>b__1[0]( ) ->  
 
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_1::.ctor[0]( ) skipped:  special name
 
-	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_1::voltaje ->  
-	System.DateTime [RayPro]System.DateTime RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_1::ts ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_1::adjusted ->  
 	RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_0 [RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_0 RayPro.Aplicaciones.tools.UsbCdcManager/<>c__DisplayClass84_1::CS$<>8__locals1 ->  
 }
 
-[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<AttemptReconnectAsync>d__73 -> [RayPro] . / 
+[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<AttemptReconnectAsync>d__73 -> [RayPro] . / 
 {
 
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<AttemptReconnectAsync>d__73::MoveNext[0]( ) skipped:  external base class or interface
@@ -567,7 +715,7 @@ Renamed Types:
 	System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter [RayPro]System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter RayPro.Aplicaciones.tools.UsbCdcManager/<AttemptReconnectAsync>d__73::<>u__1 ->  
 }
 
-[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<ConsumerLoopAsync>d__84 -> [RayPro] . / 
+[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<ConsumerLoopAsync>d__84 -> [RayPro] . / 
 {
 
 	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<ConsumerLoopAsync>d__84::MoveNext[0]( ) skipped:  external base class or interface
@@ -580,64 +728,34 @@ Renamed Types:
 	System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter [RayPro]System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter RayPro.Aplicaciones.tools.UsbCdcManager/<ConsumerLoopAsync>d__84::<>u__1 ->  
 }
 
-[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__75 -> [RayPro] . / 
+[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__80 -> [RayPro] . / 
 {
 
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__75::MoveNext[0]( ) skipped:  external base class or interface
-	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__75::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__80::MoveNext[0]( ) skipped:  external base class or interface
+	[RayPro]RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__80::SetStateMachine[1]( [mscorlib]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
 
-	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__75::<>1__state ->  
-	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [RayPro]System.Runtime.CompilerServices.AsyncTaskMethodBuilder RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__75::<>t__builder ->  
-	System.Threading.CancellationToken [RayPro]System.Threading.CancellationToken RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__75::ct ->  
-	RayPro.Aplicaciones.tools.UsbCdcManager [RayPro]RayPro.Aplicaciones.tools.UsbCdcManager RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__75::<>4__this ->  
-	System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter [RayPro]System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__75::<>u__1 ->  
+	System.Int32 [RayPro]System.Int32 RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__80::<>1__state ->  
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder [RayPro]System.Runtime.CompilerServices.AsyncTaskMethodBuilder RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__80::<>t__builder ->  
+	System.Threading.CancellationToken [RayPro]System.Threading.CancellationToken RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__80::ct ->  
+	RayPro.Aplicaciones.tools.UsbCdcManager [RayPro]RayPro.Aplicaciones.tools.UsbCdcManager RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__80::<>4__this ->  
+	System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter [RayPro]System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter RayPro.Aplicaciones.tools.UsbCdcManager/<WatchdogLoopAsync>d__80::<>u__1 ->  
 }
 
-[RayPro]<PrivateImplementationDetails>/__StaticArrayInitTypeSize=24 -> [RayPro] . / 
+[RayPro]RayPro.Aplicaciones.tools.HumanSupport/<>c__DisplayClass14_0 -> [RayPro] . / 
+{
+	[RayPro]RayPro.Aplicaciones.tools.HumanSupport/<>c__DisplayClass14_0::<MsjeOfError>b__0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) ->  
+
+	[RayPro]RayPro.Aplicaciones.tools.HumanSupport/<>c__DisplayClass14_0::.ctor[0]( ) skipped:  special name
+
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.tools.HumanSupport/<>c__DisplayClass14_0::lblErrorMsg ->  
+	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.Aplicaciones.tools.HumanSupport/<>c__DisplayClass14_0::temporizador ->  
+}
+
+[RayPro]<PrivateImplementationDetails>/__StaticArrayInitTypeSize=24 -> [RayPro] . / 
 {
 }
 
 Skipped Types:
-
-[RayPro]RayPro.configuraciones.Settings skipped:  namespace rule in configuration
-{
-
-	[RayPro]RayPro.configuraciones.Settings::get_Default[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_DB_USERConnection[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_Usuarios[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::set_Usuarios[1]( [mscorlib]System.String ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_PassUser[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::set_PassUser[1]( [mscorlib]System.String ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_ComPortName[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::set_ComPortName[1]( [mscorlib]System.String ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_Baudios[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::set_Baudios[1]( [mscorlib]System.Int32 ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_AutoConnect[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::set_AutoConnect[1]( [mscorlib]System.Boolean ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_VoltageOffset[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::set_VoltageOffset[1]( [mscorlib]System.Int32 ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_NameHospital[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::set_NameHospital[1]( [mscorlib]System.String ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::get_NameUsers[0]( ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::set_NameUsers[1]( [mscorlib]System.String ) skipped:  skip by property
-	[RayPro]RayPro.configuraciones.Settings::.ctor[0]( ) skipped:  special name
-	[RayPro]RayPro.configuraciones.Settings::.cctor[0]( ) skipped:  special name
-
-
-	RayPro.configuraciones.Settings [RayPro]RayPro.configuraciones.Settings RayPro.configuraciones.Settings::defaultInstance skipped:  type rule in configuration
-
-
-	RayPro.configuraciones.Settings [RayPro]RayPro.configuraciones.Settings RayPro.configuraciones.Settings::Default skipped:  type rule in configuration
-	System.String [RayPro]System.String RayPro.configuraciones.Settings::DB_USERConnection skipped:  type rule in configuration
-	System.String [RayPro]System.String RayPro.configuraciones.Settings::Usuarios skipped:  type rule in configuration
-	System.String [RayPro]System.String RayPro.configuraciones.Settings::PassUser skipped:  type rule in configuration
-	System.String [RayPro]System.String RayPro.configuraciones.Settings::ComPortName skipped:  type rule in configuration
-	System.Int32 [RayPro]System.Int32 RayPro.configuraciones.Settings::Baudios skipped:  type rule in configuration
-	System.Boolean [RayPro]System.Boolean RayPro.configuraciones.Settings::AutoConnect skipped:  type rule in configuration
-	System.Int32 [RayPro]System.Int32 RayPro.configuraciones.Settings::VoltageOffset skipped:  type rule in configuration
-	System.String [RayPro]System.String RayPro.configuraciones.Settings::NameHospital skipped:  type rule in configuration
-	System.String [RayPro]System.String RayPro.configuraciones.Settings::NameUsers skipped:  type rule in configuration
-}
 
 [RayPro]RayPro.Vista.QuestionBox skipped:  namespace rule in configuration
 {
@@ -720,7 +838,7 @@ Skipped Types:
 	[RayPro]RayPro.Vista.Login::InitializeComponent[0]( ) skipped:  type rule in configuration
 
 
-	RayPro.configuraciones.Settings [RayPro]RayPro.configuraciones.Settings RayPro.Vista.Login::configurar skipped:  type rule in configuration
+	RayPro.Configuraciones.Settings [RayPro]RayPro.Configuraciones.Settings RayPro.Vista.Login::configurar skipped:  type rule in configuration
 	System.ComponentModel.IContainer [RayPro]System.ComponentModel.IContainer RayPro.Vista.Login::components skipped:  type rule in configuration
 	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.Vista.Login::panel1 skipped:  type rule in configuration
 	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Vista.Login::lblLogin skipped:  type rule in configuration
@@ -737,20 +855,22 @@ Skipped Types:
 	System.Windows.Forms.LinkLabel [RayPro]System.Windows.Forms.LinkLabel RayPro.Vista.Login::linkSetting skipped:  type rule in configuration
 	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.Vista.Login::pictureBox5 skipped:  type rule in configuration
 	System.Windows.Forms.ComboBox [RayPro]System.Windows.Forms.ComboBox RayPro.Vista.Login::cboUsuario skipped:  type rule in configuration
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Vista.Login::label1 skipped:  type rule in configuration
 }
 
 [RayPro]RayPro.Vista.Welcome skipped:  namespace rule in configuration
 {
 
 	[RayPro]RayPro.Vista.Welcome::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
-	[RayPro]RayPro.Vista.Welcome::.ctor[0]( ) skipped:  special name
+	[RayPro]RayPro.Vista.Welcome::.ctor[1]( [RayPro]RayPro.MainRxPro ) skipped:  special name
 	[RayPro]RayPro.Vista.Welcome::timeInicio_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Vista.Welcome::timeFin_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
-	[RayPro]RayPro.Vista.Welcome::OnLoad[1]( [mscorlib]System.EventArgs ) skipped:  external base class or interface
 	[RayPro]RayPro.Vista.Welcome::Welcome_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
+	[RayPro]RayPro.Vista.Welcome::OnLoad[1]( [mscorlib]System.EventArgs ) skipped:  external base class or interface
 	[RayPro]RayPro.Vista.Welcome::InitializeComponent[0]( ) skipped:  type rule in configuration
 
 
+	RayPro.MainRxPro [RayPro]RayPro.MainRxPro RayPro.Vista.Welcome::_mainForm skipped:  type rule in configuration
 	System.ComponentModel.IContainer [RayPro]System.ComponentModel.IContainer RayPro.Vista.Welcome::components skipped:  type rule in configuration
 	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.Vista.Welcome::panelSuperior skipped:  type rule in configuration
 	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.Vista.Welcome::pictureBox1 skipped:  type rule in configuration
@@ -769,9 +889,9 @@ Skipped Types:
 
 	[RayPro]RayPro.Aplicaciones.FrKeyBoard::get_SentNumerbs[0]( ) skipped:  skip by property
 	[RayPro]RayPro.Aplicaciones.FrKeyBoard::set_SentNumerbs[1]( [mscorlib]System.Int32 ) skipped:  skip by property
+	[RayPro]RayPro.Aplicaciones.FrKeyBoard::OnPaint[1]( [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) skipped:  external base class or interface
 	[RayPro]RayPro.Aplicaciones.FrKeyBoard::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
 	[RayPro]RayPro.Aplicaciones.FrKeyBoard::.ctor[3]( [mscorlib]System.String, [mscorlib]System.Int32, [mscorlib]System.Int32 ) skipped:  special name
-	[RayPro]RayPro.Aplicaciones.FrKeyBoard::OnPaint[1]( [System.Windows.Forms]System.Windows.Forms.PaintEventArgs ) skipped:  external base class or interface
 	[RayPro]RayPro.Aplicaciones.FrKeyBoard::GetRoundedRect[2]( [System.Drawing]System.Drawing.Rectangle, [mscorlib]System.Int32 ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.FrKeyBoard::iniPropiedadesTecla[0]( ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.FrKeyBoard::AppendNumber[1]( [mscorlib]System.String ) skipped:  type rule in configuration
@@ -833,29 +953,30 @@ Skipped Types:
 	[RayPro]RayPro.Aplicaciones.SettingDev::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
 	[RayPro]RayPro.Aplicaciones.SettingDev::.ctor[0]( ) skipped:  special name
 	[RayPro]RayPro.Aplicaciones.SettingDev::inicializandoComponentes[0]( ) skipped:  type rule in configuration
-	[RayPro]RayPro.Aplicaciones.SettingDev::mensajeDeError[1]( [mscorlib]System.String ) skipped:  type rule in configuration
-	[RayPro]RayPro.Aplicaciones.SettingDev::clearText[0]( ) skipped:  type rule in configuration
+	[RayPro]RayPro.Aplicaciones.SettingDev::clearTextBox[0]( ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::WireEvents[0]( ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::UnwireEvents[0]( ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::OnConnectionChanged[1]( [mscorlib]System.Boolean ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::OnDataReceived[1]( [mscorlib]System.String ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::OnErrorOccurred[1]( [mscorlib]System.String ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::LoadCombos[0]( ) skipped:  type rule in configuration
-	[RayPro]RayPro.Aplicaciones.SettingDev::btnConnect_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
+	[RayPro]RayPro.Aplicaciones.SettingDev::CargarFechasLicencia[0]( ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::initAccountSettings[0]( ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::btn_mini_picbox_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::btn_cerrar_picbox_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::btnCancel_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::btnReseteo_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::btnSend_Click_1[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
+	[RayPro]RayPro.Aplicaciones.SettingDev::btnConnect_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::btnGuardarAccount_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::btnSaveUsb_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::btnSaveLicencse_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
+	[RayPro]RayPro.Aplicaciones.SettingDev::btnReset_Click[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::SettingDev_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
-	[RayPro]RayPro.Aplicaciones.SettingDev::cboOffset_DrawItem[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.DrawItemEventArgs ) skipped:  type rule in configuration
 	[RayPro]RayPro.Aplicaciones.SettingDev::InitializeComponent[0]( ) skipped:  type rule in configuration
 
 
+	RayPro.Aplicaciones.tools.HumanSupport [RayPro]RayPro.Aplicaciones.tools.HumanSupport RayPro.Aplicaciones.SettingDev::hSuport skipped:  type rule in configuration
 	System.ComponentModel.IContainer [RayPro]System.ComponentModel.IContainer RayPro.Aplicaciones.SettingDev::components skipped:  type rule in configuration
 	System.Windows.Forms.GroupBox [RayPro]System.Windows.Forms.GroupBox RayPro.Aplicaciones.SettingDev::groupBox1 skipped:  type rule in configuration
 	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.Aplicaciones.SettingDev::pictureBox1 skipped:  type rule in configuration
@@ -867,10 +988,12 @@ Skipped Types:
 	System.Windows.Forms.TabPage [RayPro]System.Windows.Forms.TabPage RayPro.Aplicaciones.SettingDev::tabPage1 skipped:  type rule in configuration
 	System.Windows.Forms.TextBox [RayPro]System.Windows.Forms.TextBox RayPro.Aplicaciones.SettingDev::txtNameHospital skipped:  type rule in configuration
 	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::label17 skipped:  type rule in configuration
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::lblErrorMsg skipped:  type rule in configuration
+	System.Windows.Forms.ComboBox [RayPro]System.Windows.Forms.ComboBox RayPro.Aplicaciones.SettingDev::cboRol skipped:  type rule in configuration
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::lblErrorAcount skipped:  type rule in configuration
 	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.Aplicaciones.SettingDev::pictureBox5 skipped:  type rule in configuration
 	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.Aplicaciones.SettingDev::btnReset skipped:  type rule in configuration
 	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::label4 skipped:  type rule in configuration
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::label3 skipped:  type rule in configuration
 	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::label2 skipped:  type rule in configuration
 	System.Windows.Forms.TextBox [RayPro]System.Windows.Forms.TextBox RayPro.Aplicaciones.SettingDev::txtPassAnt skipped:  type rule in configuration
 	System.Windows.Forms.TextBox [RayPro]System.Windows.Forms.TextBox RayPro.Aplicaciones.SettingDev::txtUsuario skipped:  type rule in configuration
@@ -889,7 +1012,7 @@ Skipped Types:
 	System.Windows.Forms.PictureBox [RayPro]System.Windows.Forms.PictureBox RayPro.Aplicaciones.SettingDev::pictureBox2 skipped:  type rule in configuration
 	System.Windows.Forms.TabPage [RayPro]System.Windows.Forms.TabPage RayPro.Aplicaciones.SettingDev::tabPage3 skipped:  type rule in configuration
 	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.Aplicaciones.SettingDev::panel2 skipped:  type rule in configuration
-	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::lblError2 skipped:  type rule in configuration
+	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::lblErrorLicense skipped:  type rule in configuration
 	System.Windows.Forms.Panel [RayPro]System.Windows.Forms.Panel RayPro.Aplicaciones.SettingDev::panel1 skipped:  type rule in configuration
 	System.Windows.Forms.Label [RayPro]System.Windows.Forms.Label RayPro.Aplicaciones.SettingDev::label5 skipped:  type rule in configuration
 	System.Windows.Forms.TextBox [RayPro]System.Windows.Forms.TextBox RayPro.Aplicaciones.SettingDev::txtPassHas skipped:  type rule in configuration
@@ -945,6 +1068,17 @@ Skipped Types:
 	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.Vista.Login/<>c__DisplayClass8_0::temporizador skipped:  type rule in configuration
 }
 
+[RayPro]RayPro.Vista.Welcome/<>c__DisplayClass3_0 skipped:  namespace rule in configuration
+{
+
+	[RayPro]RayPro.Vista.Welcome/<>c__DisplayClass3_0::.ctor[0]( ) skipped:  special name
+	[RayPro]RayPro.Vista.Welcome/<>c__DisplayClass3_0::<timeFin_Tick>b__0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
+
+
+	RayPro.Vista.Welcome [RayPro]RayPro.Vista.Welcome RayPro.Vista.Welcome/<>c__DisplayClass3_0::<>4__this skipped:  type rule in configuration
+	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.Vista.Welcome/<>c__DisplayClass3_0::t skipped:  type rule in configuration
+}
+
 [RayPro]RayPro.Aplicaciones.FrKeyBoard/<>c__DisplayClass14_0 skipped:  namespace rule in configuration
 {
 
@@ -956,17 +1090,6 @@ Skipped Types:
 	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.Aplicaciones.FrKeyBoard/<>c__DisplayClass14_0::temporizador skipped:  type rule in configuration
 }
 
-[RayPro]RayPro.Aplicaciones.SettingDev/<>c__DisplayClass4_0 skipped:  namespace rule in configuration
-{
-
-	[RayPro]RayPro.Aplicaciones.SettingDev/<>c__DisplayClass4_0::.ctor[0]( ) skipped:  special name
-	[RayPro]RayPro.Aplicaciones.SettingDev/<>c__DisplayClass4_0::<mensajeDeError>b__0[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) skipped:  type rule in configuration
-
-
-	RayPro.Aplicaciones.SettingDev [RayPro]RayPro.Aplicaciones.SettingDev RayPro.Aplicaciones.SettingDev/<>c__DisplayClass4_0::<>4__this skipped:  type rule in configuration
-	System.Windows.Forms.Timer [RayPro]System.Windows.Forms.Timer RayPro.Aplicaciones.SettingDev/<>c__DisplayClass4_0::temporizador skipped:  type rule in configuration
-}
-
 [RayPro]RayPro.Program skipped:  type rule in configuration
 {
 	[RayPro]RayPro.Program::Main[0]( ) ->  
@@ -974,8 +1097,8 @@ Skipped Types:
 
 Renamed Resources:
 
-RayPro.MainRayX.resources ->  . .resources
-RayPro.Properties.Resources.resources ->  . .resources
+RayPro.MainRxPro.resources ->  . .resources
+RayPro.Properties.Resources.resources ->  . .resources
 
 Skipped Resources:
 
