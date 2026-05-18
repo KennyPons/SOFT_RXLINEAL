@@ -135,10 +135,11 @@ namespace RayPro.Vista
 
             if (rol == configurar.Usuarios && txtPassword.Text == configurar.PassUser)
             {
-                Welcome frWelcome = new Welcome();
-                frWelcome.ShowDialog();
                 MainRayX frMain = new MainRayX();
-                frMain.Show();
+
+                Welcome frWelcome = new Welcome(frMain);
+                frWelcome.ShowDialog();
+
                 Hide();
             }
             else if (rol.Equals("Admin") && txtPassword.Text == "configuracion7070")

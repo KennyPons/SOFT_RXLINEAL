@@ -11,9 +11,11 @@ namespace RayPro.Vista
 {
     public partial class Welcome : Form
     {
-        public Welcome()
+        private MainRayX _mainForm;
+        public Welcome(MainRayX mainForm)
         {
             InitializeComponent();
+            _mainForm = mainForm;
         }
 
         private void timeInicio_Tick(object sender, EventArgs e)
@@ -31,9 +33,23 @@ namespace RayPro.Vista
         private void timeFin_Tick(object sender, EventArgs e)
         {
             this.Opacity -= 0.1;
-            if (this.Opacity == 0)
+            if (this.Opacity <= 0)
             {
                 timeFin.Stop();
+
+                // ── Mostrar el Main oculto, dejar que escale, luego revelar ──
+                _mainForm.Opacity = 0;
+                _mainForm.Show();
+
+                var t = new Timer { Interval = 80 };
+                t.Tick += (s, ev) =>
+                {
+                    t.Stop();
+                    t.Dispose();
+                    _mainForm.Opacity = 1; // ← aparece ya escalado y perfecto ✅
+                };
+                t.Start();
+
                 this.Close();
             }
         }

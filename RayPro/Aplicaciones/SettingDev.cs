@@ -171,7 +171,7 @@ namespace RayPro.Aplicaciones
         private void initAccountSettings()
         {
             cboOffset.Items.Clear();
-            for (int i = -11; i <= 11; i++)
+            for (int i = -25; i <= 25; i++)
                 cboOffset.Items.Add(i);
             cboOffset.SelectedItem = AppSession.Usb?.VoltageOffset ?? 2;
         }
@@ -220,8 +220,8 @@ namespace RayPro.Aplicaciones
             // Leer y validar
             int value;
             if (!int.TryParse(cboOffset.SelectedItem.ToString(), out value)) return;
-            if (value < -12) value = -11;
-            if (value > 11) value = 11;
+            if (value < -25) value = -24;
+            if (value > 24) value = 24;
 
             // Aplicar a la instancia del manager (si existe)
             if (AppSession.Usb != null)
